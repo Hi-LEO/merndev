@@ -1,0 +1,172 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  box-sizing: border-box;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.navbarstyle {
+  margin: 10px;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.navbarstyle li {
+  padding-left: 20px;
+}
+
+
+/* this is sigup page css  */
+
+.main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+
+  width: 60%;
+  height: 80%;
+  padding: 20px;
+  background-color: skyblue;
+  display: flex;
+  position: relative;
+
+
+}
+
+.form-control {
+  padding-left: 50px;
+}
+
+.formgroup {
+  position: relative;
+  width: 120%;
+  outline: none;
+  border-bottom: 2px solid black;
+}
+
+.iconcss {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+
+
+}
+
+.rightimg {
+  width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+
+
+
+
+}
+
+.imgcontrol {
+  width: 100%;
+  margin-left: 80px;
+  height: 100%
+}
+
+.signup-image-link {
+
+  color: black;
+  position: relative;
+  background-color: lightblue;
+  font-weight: 700;
+  font-size: 2vw;
+}
+
+.firstinput {
+  border-radius: 6px;
+  background-color: rgb(197, 188, 188);
+  padding: 10px;
+
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.massagebox {
+
+  background-color: pink;
+  padding: 20px;
+  width: 50%;
+
+}
+
+#massage {
+  background-color: white;
+  color: black;
+  width: 100%;
+  font-size: larger;
+  font-weight: 700;
+}
+
+#btn {
+  width: 200px;
+  padding: 10px;
+  font-size: larger;
+}
+
+
+.mainhome {
+  height: 100vh;
+  width: 100%;
+}
+
+.homepage {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#homebtn {
+  font-size: x-large;
+  background-color: lightcoral;
+  width: 150px;
+  color: blue;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+
+.aboutpage {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#userid {
+  color: blue;
+  text-decoration: underline;
+}
