@@ -8,9 +8,7 @@ const cors = require("cors")
 
 require("../db/conn")
 const User = require("../model/userScama")
-router.get('/', async (req, res) => {
-  res.send("this is router page");
-});
+
 
 router.post('/register', async (req, res) => {
   const { name, email, phone, password, cpassword } = req.body;
