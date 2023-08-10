@@ -28,7 +28,7 @@ app.get('*', function (_, res) {
   })
 })
 
-const PORT = process.env.port || 5000;
+const PORT = process.env.port;
 
 
 
