@@ -11,7 +11,7 @@ const About = () => {
 
   const callaboutpage = async () => {
     try {
-      const res = await fetch("http://localhost:5000/about", {
+      const res = await fetch("https://tender-shorts-fly.cyclic.app/about", {
         method: "GET",
         headers: {
           Accept: "application/json",

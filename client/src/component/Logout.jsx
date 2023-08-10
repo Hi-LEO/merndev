@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 function Logout() {
   const Navigate = useNavigate();
   useEffect(() => {
-    fetch("http://localhost:5000/logout", {
+    fetch("https://tender-shorts-fly.cyclic.app/logout", {
       method: "GET",
       headers: {
         Accept: "application/json",

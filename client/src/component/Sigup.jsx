@@ -22,7 +22,7 @@ const Sigup = () => {
     e.preventDefault();
     const { name, email, phone, password, cpassword } = User;
 
-    const res = await fetch("http://localhost:5000/register", {
+    const res = await fetch("https://tender-shorts-fly.cyclic.app/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

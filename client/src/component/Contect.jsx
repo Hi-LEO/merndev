@@ -9,7 +9,7 @@ const Contect = () => {
 
   const callcontectpage = async () => {
     try {
-      const res = await fetch("http://localhost:5000/getdata", {
+      const res = await fetch("https://tender-shorts-fly.cyclic.app/getdata", {
         method: "GET",
         headers: {
           // Accept: "application/json",
@@ -46,7 +46,7 @@ const Contect = () => {
   const senddata = async (e) => {
     e.preventDefault();
     const { name, email, phone, massage } = getuser;
-    const res = await fetch("http://localhost:5000/contect", {
+    const res = await fetch("https://tender-shorts-fly.cyclic.app/contect", {
       method: "POST",
       headers: {
         "Content-type": "application/json"
