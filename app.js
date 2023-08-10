@@ -28,7 +28,7 @@ app.get('*', function (_, res) {
   })
 })
 
-const port = process.env.port || 5000;
+const PORT = process.env.port || 5000;
 
 
 
@@ -38,6 +38,6 @@ const port = process.env.port || 5000;
 
 
 
-app.listen(port, () => {
-  console.log(` port is running on ${port}`)
+app.listen(PORT, () => {
+  console.log(` port is running on ${PORT}`)
 })
